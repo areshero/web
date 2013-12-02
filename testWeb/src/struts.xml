@@ -23,12 +23,14 @@
         <action name="index">
             <result type="redirectAction">
                 <param name="actionName">HelloWorld</param>
-                <param name="namespace">/come</param>
+                <param name="namespace">/</param>
             </result>
         </action>
     </package>
 
     <include file="redirect.xml"/>
+    <include file="struts-fileupload.xml"/>
+    
 
     <!-- Add packages here -->
 

@@ -5,10 +5,10 @@
 
 <struts>
 
-    <package name="areshero" namespace="/come" extends="default">
+    <package name="areshero" namespace="/" extends="default">
 
         <action name="HelloWorld" class="com.adm.action.HelloWorld">
-            <result>/Main.jsp</result>
+            <result>/upload.jsp</result>
         </action>
 
 
