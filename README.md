@@ -1,0 +1,3 @@
+web
+===
+struts2
